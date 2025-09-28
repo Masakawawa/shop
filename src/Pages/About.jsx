@@ -56,7 +56,7 @@ export default function About() {
       <div className="space-y-4 max-w-3xl text-left">
         <p className="text-gray-800 leading-relaxed">
           Kami sangat menjunjung kenyamanan anda dalam mengunjungi web kami. Link pada
-          product sudah melalui filter oleh tim kami sehingga product aman dan pastinya
+          product sudah melalui filter oleh tim kami sehingga product berkualitas dan pastinya
           terpercaya.
         </p>
         <p className="text-gray-800 leading-relaxed">
@@ -69,7 +69,7 @@ export default function About() {
 
 <div className="w-full flex flex-col items-center justify py-10">
       {/* Heading */}
-      <p className="text-gray-600 text-sm mb-9">follow us on.</p>
+      <p className="text-gray-900 text-sm mb-9">find us on.</p>
 
       {/* 3 Kolom */}
       <div className="flex flex-row gap-16 scale-80 md:scale-100">

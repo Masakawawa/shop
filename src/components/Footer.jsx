@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-10 text-left">
         <h2 className="text-xl font-thin mb-2">Masaka<p classname="font-light text-xs">Recomendation</p></h2>
         <p className="text-xs text-gray-600 max-w-md">
-          Rekomendasi produk terbaik untuk kebutuhan Anda. Temukan barang keren, trendi, dan bermanfaat yang bisa kamu order langsung.
+          Rekomendasi produk berkualitas untuk kebutuhan Anda. Temukan barang keren, trendi, dan bermanfaat yang bisa kamu order langsung.
         </p>
       </div>
 

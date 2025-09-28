@@ -13,7 +13,7 @@ const products = [
     price: 51000,
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHndNYTkfaxD-NzVzD/",
-    image: "/Bukutop.jpeg",
+    image: "/images/Bukutop.jpeg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const products = [
     price: 41500,
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHnAbysq4DMF-KdwsH/",
-    image: "/buku2.jpeg",
+    image: "/images/buku2.jpeg",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const products = [
     price: "15.000 - 30.000",
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHnApfRYtByK-j4snx/",
-    image: "/buku3.jpg",
+    image: "/images/buku3.jpg",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const products = [
     price: 20000,
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHnwQmCt8JvX-v8BQ3/",
-    image: "/buku4.png",
+    image: "/images/buku4.png",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const products = [
     price: 22960,
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHnteySnQWDC-VufiC/",
-    image: "buku5.jpg",
+    image: "/images/buku5.jpg",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const products = [
     price: 99900,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnd6eK5uqcp-SjnaZ/",
-    image: "/kaos2.jpg",
+    image: "/images/kaos2.jpg",
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ const products = [
     price: 99900,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHndM1vGfNhU-DbAAd/",
-    image: "kaos1.jpg",
+    image: "/images/kaos1.jpg",
   },
   {
     id: 8,
@@ -76,7 +76,7 @@ const products = [
     price: 129900,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnDgMYPYv2a-N53aq/",
-    image: "baju1.jpg",
+    image: "/images/baju1.jpg",
   },
   {
     id: 9,
@@ -85,7 +85,7 @@ const products = [
     price: 222400,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnTUJekuhJq-u7Oau/",
-    image: "/baju3.jpg",
+    image: "/images/baju3.jpg",
   },
   {
     id: 10,
@@ -94,7 +94,7 @@ const products = [
     price: 99900,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnTPrhx23wN-6JijR/",
-    image: "/baju4.jpg",
+    image: "/images/baju4.jpg",
   },
   {
     id: 11,
@@ -103,7 +103,7 @@ const products = [
     price: 147500,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnTfr1tPtdx-MpmXI/",
-    image: "/jaket1.jpg",
+    image: "/images/jaket1.jpg",
   },
   {
     id: 12,
@@ -112,43 +112,25 @@ const products = [
     price: 67500,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnw5yDm5UAm-O6dRk/",
-    image: "/baju5.jpg",
+    image: "/images/baju5.jpg",
   },
   {
     id: 13,
-    title: "Kemeja Oversize",
-    author: "Piliana",
-    price: 99220,
-    category: "Baju",
-    link: "https://vt.tokopedia.com/t/ZSHnwaWsoCMaX-i0IZw/",
-    image: "/kemeja1.jpg",
-  },
-   {
-    id: 14,
-    title: "Kemeja Oversize",
-    author: "Piliana",
-    price: 99210,
-    category: "Baju",
-    link: "https://vt.tokopedia.com/t/ZSHnwujrghaAQ-3PRA0/",
-    image: "/kemeja2.jpg",
-  },
-  {
-    id: 15,
     title: "Celana Panjang Cargo",
     author: "KREMLIN",
     price: 222400,
     category: "Celana",
     link: "https://vt.tokopedia.com/t/ZSHnwHq9QEF7C-foJDn/",
-    image: "/celana1.jpg",
+    image: "/images/celana1.jpg",
   },
   {
-    id: 16,
+    id: 14,
     title: "Celana Pendek Cargo",
     author: "n-nine.co",
     price: 48250,
     category: "Celana",
     link: "https://vt.tokopedia.com/t/ZSHnw9wc8TpT7-LJu7x/",
-    image: "/celana2.jpg",
+    image: "/images/celana2.jpg",
   },
 ];
 
