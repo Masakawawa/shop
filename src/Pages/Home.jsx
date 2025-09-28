@@ -1,6 +1,21 @@
 import React, { useState } from "react";
 import { ShoppingBag } from "lucide-react";
 
+import buku1 from "../assets/images/Bukutop.jpeg";
+import buku2 from "../assets/images/buku2.jpeg";
+import buku3 from "../assets/images/buku3.jpg";
+import buku4 from "../assets/images/buku4.png";
+import buku5 from "../assets/images/buku5.jpg";
+import kaos2 from "../assets/images/kaos2.jpg";
+import kaos1 from "../assets/images/kaos1.jpg";
+import baju1 from "../assets/images/baju1.jpg";
+import baju3 from "../assets/images/baju3.jpg";
+import baju4 from "../assets/images/baju4.jpg";
+import jaket1 from "../assets/images/jaket1.jpg";
+import baju5 from "../assets/images/baju5.jpg";
+import celana1 from "../assets/images/celana1.jpg";
+import celana2 from "../assets/images/celana2.jpg";
+
 // data category
 const categories = ["All", "Buku", "Baju", "Celana", "Alat"];
 
@@ -13,7 +28,7 @@ const products = [
     price: 51000,
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHndNYTkfaxD-NzVzD/",
-    image: "/images/Bukutop.jpeg",
+    image: buku1,
   },
   {
     id: 2,
@@ -22,7 +37,7 @@ const products = [
     price: 41500,
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHnAbysq4DMF-KdwsH/",
-    image: "/images/buku2.jpeg",
+    image: buku2,
   },
   {
     id: 3,
@@ -31,7 +46,7 @@ const products = [
     price: "15.000 - 30.000",
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHnApfRYtByK-j4snx/",
-    image: "/images/buku3.jpg",
+    image: buku3,
   },
   {
     id: 4,
@@ -40,7 +55,7 @@ const products = [
     price: 20000,
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHnwQmCt8JvX-v8BQ3/",
-    image: "/images/buku4.png",
+    image: buku4,
   },
   {
     id: 5,
@@ -49,25 +64,25 @@ const products = [
     price: 22960,
     category: "Buku",
     link: "https://vt.tokopedia.com/t/ZSHnteySnQWDC-VufiC/",
-    image: "/images/buku5.jpg",
+    image: buku5,
   },
   {
     id: 6,
-    title: "Kaos Oversize",
+    title: "Kaos Oversize | Oat meal",
     author: "eazy",
     price: 99900,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnd6eK5uqcp-SjnaZ/",
-    image: "/images/kaos2.jpg",
+    image: kaos2,
   },
   {
     id: 7,
-    title: "Kaos Oversize",
+    title: "Kaos Oversize | Smoke",
     author: "aezy",
     price: 99900,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHndM1vGfNhU-DbAAd/",
-    image: "/images/kaos1.jpg",
+    image: kaos1,
   },
   {
     id: 8,
@@ -76,7 +91,7 @@ const products = [
     price: 129900,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnDgMYPYv2a-N53aq/",
-    image: "/images/baju1.jpg",
+    image: baju1,
   },
   {
     id: 9,
@@ -85,16 +100,16 @@ const products = [
     price: 222400,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnTUJekuhJq-u7Oau/",
-    image: "/images/baju3.jpg",
+    image: baju3,
   },
   {
     id: 10,
-    title: "Kaos Oversize",
+    title: "Kaos Oversize | Black",
     author: "aezy",
     price: 99900,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnTPrhx23wN-6JijR/",
-    image: "/images/baju4.jpg",
+    image: baju4,
   },
   {
     id: 11,
@@ -103,7 +118,7 @@ const products = [
     price: 147500,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnTfr1tPtdx-MpmXI/",
-    image: "/images/jaket1.jpg",
+    image: jaket1,
   },
   {
     id: 12,
@@ -112,7 +127,7 @@ const products = [
     price: 67500,
     category: "Baju",
     link: "https://vt.tokopedia.com/t/ZSHnw5yDm5UAm-O6dRk/",
-    image: "/images/baju5.jpg",
+    image: baju5,
   },
   {
     id: 13,
@@ -121,7 +136,7 @@ const products = [
     price: 222400,
     category: "Celana",
     link: "https://vt.tokopedia.com/t/ZSHnwHq9QEF7C-foJDn/",
-    image: "/images/celana1.jpg",
+    image: celana1,
   },
   {
     id: 14,
@@ -130,7 +145,7 @@ const products = [
     price: 48250,
     category: "Celana",
     link: "https://vt.tokopedia.com/t/ZSHnw9wc8TpT7-LJu7x/",
-    image: "/images/celana2.jpg",
+    image: celana2,
   },
 ];
 
